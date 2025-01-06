@@ -2,6 +2,8 @@
 
 This project is a digital library [captive portal](https://en.wikipedia.org/wiki/Captive_portal) using an ESP32 microcontroller. It sets up a WiFi access point and serves a web page with various digital content, including books, images, and audio.
 
+NOTE: This implementation assumes the ESP32 does not have an SD card and is not partitioned. Therefore, all data is stored directly in the flash memory and served from there.
+
 ![example](example.png)
 
 ## Setup
